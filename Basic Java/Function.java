@@ -5,7 +5,7 @@ public class Function {
         greet();
         int first = readNumber();
         int second = readNumber();
-        System.out.println("The addition of first and second number is : " + first + second);
+        System.out.println("The addition of first and second number is : " + (first + second));
     }
 
 public static void greet(){
