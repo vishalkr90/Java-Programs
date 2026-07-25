@@ -7,7 +7,7 @@ public class ReverseArray {
             arr[i] = arr[n-1-i];
             arr[n-1-i] = temp;
         }
-
+  
         // int i = 0,j=n-1;
         // while(i<j){
         //     int temp = arr[i];
