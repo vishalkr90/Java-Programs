@@ -4,5 +4,6 @@ public class ForEachArray {
         for(int ele : arr){
             System.out.print(ele+" ");
         }
+        
     }
 }

@@ -9,6 +9,7 @@ public class FindDuplicateElement {
                 }
             }
         }
+        
         return num;
     }
     public static void main(String[] args) {
