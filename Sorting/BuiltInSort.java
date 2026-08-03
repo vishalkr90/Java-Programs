@@ -6,3 +6,4 @@ public class BuiltInSort {
          System.out.println(Arrays.toString(arr));
     }
 }
+//Merge Sort
