@@ -10,10 +10,10 @@ public class SelectionSort {
         //         }
         //     }
         // }
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<n-2;i++){
             int min = Integer.MAX_VALUE;
             int index = 1;
-            for(int j = i;j<n;j++){
+            for(int j = i;j<n;j++){                                                                                                              
                 if(arr[j]<min){
                     min = arr[j];
                     index = j;
@@ -23,16 +23,16 @@ public class SelectionSort {
             arr[i] = arr[index];
             arr[index] = temp;
         }
-        System.out.print("The array is after Sorting ; ");
+        System.out.print("The array is after Sorting : ");
         for(int i = 0;i<n;i++){
             System.out.print(arr[i] + " ");
         }
         return;
     }
     public static void main(String[] args) {
-        int arr[] = {2,3,1,0,-3,5};
+        int arr[] = {8,6,5,4,3};
         int n = arr.length;
-        System.out.print("The array is before Sorting ; ");
+        System.out.print("The array is before Sorting : ");
         for(int i = 0;i<n;i++){
             System.out.print(arr[i] + " ");
         }
