@@ -11,7 +11,7 @@ public class AddDigits {
             sum = digit + sum;
             n = n/10;
             rsum = sum;
-            }
+           }
         }
         System.out.println(rsum);
     }
